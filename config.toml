@@ -1,11 +1,6 @@
 [theme]
-base="light"
-primaryColor="#8523F5"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#262730"
+base = "dark"
+primaryColor = "#8523F5"
+secondaryBackgroundColor = "#1E1E1E"
+textColor = "#E0E0E0"
 
-[theme.button]
-backgroundColor="#8523F5"
-textColor="#FFFFFF"
-hoverColor="#F15A24" 
