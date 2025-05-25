@@ -364,7 +364,7 @@ with st.form("contact_form"):
                         f.write(arquivo.getbuffer())
                     arquivos_temp.append(temp_path)
 
-            senha = os.environ.get("SENHA_EMAIL")
+            senha = st.secrets["SENHA_EMAIL"]
 
             dic_email = {
                 "senha": senha,
