@@ -219,9 +219,11 @@ st.title("📊 Análise de Dados")
 st.markdown("---")
 
 st.markdown("""
-Esta página permite carregar arquivos de dados (csv, xlsx ou xls) e explorá-los de forma interativa. 
-Você pode gerar visualizações como histogramas e escolher uma cor de preferência para esses gráficos. 
-Também é apresentada uma seção de análise descritiva com estatísticas resumidas dos seus dados. 
+Esta página permite carregar arquivos de dados nos formatos CSV, XLSX ou XLS, desde que estejam organizados em formato tabular, ou seja, com colunas definidas para cada variável.
+
+Com os dados carregados corretamente, você poderá explorá-los de forma interativa: gerar visualizações com sua cor preferida e acessar uma análise descritiva com estatísticas resumidas das variáveis.
+
+Quer levar sua análise para o próximo nível? Conte com nosso suporte especializado em estatística e ciência de dados para dar significado aos seus dados.
 """)
 
 st.markdown("---")
@@ -376,7 +378,7 @@ if uploaded_file is not None:
     except Exception as e:
         st.error(f"Erro ao processar o arquivo: {str(e)}")
 else:
-    st.info("👆 Por favor, faça upload de um arquivo de dados para começar a análise.")
+    st.info("👆 Por favor, faça upload de um arquivo de dados para começar a análise")
 
 # Rodapé
 st.markdown("---")
