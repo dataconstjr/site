@@ -234,11 +234,21 @@ st.markdown("---")
 st.markdown("""
 ### Sobre Nós
 
-A Dataconst Jr é a Empresa Júnior de Estatística da UFBA, formada por estudantes apaixonados por dados e tecnologia. 
-Nosso propósito é aproximar a academia do mercado, oferecendo soluções estatísticas acessíveis e de alta qualidade.
+A DataConst Jr é a Empresa Júnior de Estatística da UFBA, formada por estudantes apaixonados por dados e tecnologia. Nosso propósito é aproximar a academia do mercado, oferecendo soluções estatísticas acessíveis e de qualidade.
+
+### 🌱 O início de tudo
+Nossa empresa júnior nasceu em meados de 2024, a partir da inquietação de um grupo de alunos curiosos e engajados, que sentiam vontade de ir além do conteúdo acadêmico e aplicar seus conhecimentos na prática. Temos a missão de transformar 
+dados em decisões e gerar valor para pessoas, instituições e negócios. Acreditamos que a estatística deve ser uma ferramenta acessível, transparente e útil — e é isso que nos move.
+
+### 💼 O que fazemos?
+Atuamos com consultorias estatísticas personalizadas, atendendo desde membros da comunidade acadêmica (em projetos de TCC, iniciação científica, mestrado e doutorado) até empresas e organizações que buscam apoio técnico em análise e interpretação de dados.
+
+### 👨‍🏫 Excelência técnica
+Contamos com a orientação de professores doutores com ampla experiência em análise estatística, o que garante rigor metodológico em nossos projetos, além de fortalecer a formação dos nossos membros.
 
 Acreditamos na democratização da estatística e trabalhamos com uma diversidade de projetos que vão desde análises descritivas, 
-modelagem preditiva, estudos de mercado, até inteligência artificial, sempre com foco em gerar valor para nossos clientes.
+modelagem preditiva, estudos de mercado, até aplicações com inteligência artificial, sempre com foco em gerar valor para nossos clientes. Se você tem uma ideia, um projeto ou um desafio que envolva dados, a Dataconst Jr 
+está pronta para te ajudar a transformar isso em soluções concretas. Entre em contato conosco!
 """)
 
 # Adicionar imagens dos membros lado a lado
