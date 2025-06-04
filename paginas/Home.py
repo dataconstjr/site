@@ -232,9 +232,9 @@ st.markdown(""" #### Análises confiáveis, soluções inteligentes  """)
 st.markdown("---")
 
 st.markdown("""
-### Sobre Nós
+## Sobre Nós
 
-A DataConst Jr é a Empresa Júnior de Estatística da UFBA, formada por estudantes apaixonados por dados e tecnologia. Nosso propósito é aproximar a academia do mercado, oferecendo soluções estatísticas acessíveis e de qualidade.
+A Dataconst Jr é a empresa júnior de Estatística da UFBA, formada por estudantes apaixonados por dados e tecnologia. Nosso propósito é aproximar a academia do mercado, oferecendo soluções estatísticas acessíveis e de qualidade.
 
 ### 🌱 O início de tudo
 Nossa empresa júnior nasceu em meados de 2024, a partir da inquietação de um grupo de alunos curiosos e engajados, que sentiam vontade de ir além do conteúdo acadêmico e aplicar seus conhecimentos na prática. Temos a missão de transformar 
@@ -268,7 +268,7 @@ with col2:
 
 st.markdown("---")
 
-st.markdown("### Nossos Serviços")
+st.markdown("## Nossos Serviços")
 
 col1, col2 = st.columns(2)
 
