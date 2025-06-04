@@ -3,8 +3,8 @@ import base64
 from PIL import Image
 import os
 import tempfile
-from enviar_email import enviar_emails as send_email
-import re  # Adicionar import para expressão regular
+from enviar_email import enviar_emails
+import re
 
 # Função para carregar e codificar a imagem em base64
 def get_image_base64(image_path):
@@ -301,7 +301,7 @@ with col2:
 # Rodapé
 st.markdown("---")
 
-# CTA Section
+# CTA
 st.markdown("""
 <div style="text-align: center; padding: 2rem 0;">
     <h2>🎯 Quer transformar seus dados em soluções?</h2>
@@ -317,7 +317,6 @@ def validar_email(email):
     return re.match(pattern, email) is not None
 
 # Formulário de contato
-# Inicializar variáveis de estado se não existirem
 if 'form_nome' not in st.session_state:
     st.session_state.form_nome = ""
 if 'form_email' not in st.session_state:
@@ -376,7 +375,7 @@ with st.form("contact_form"):
             }
             
             try:
-                send_email(**dic_email)
+                enviar_emails(**dic_email)
                 st.success("Obrigado pela mensagem! Entraremos em contato em breve.")
                 # Limpar os campos após envio bem-sucedido
                 st.session_state.form_nome = ""
