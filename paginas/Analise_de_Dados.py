@@ -393,7 +393,7 @@ st.markdown("""
             <img src='https://img.icons8.com/color/48/000000/instagram-new.png' width='40'/>
         </a>
         <a href='https://github.com/dataconstjr' target='_blank'>
-            <img src='https://img.icons8.com/?size=100&id=12598&format=png&color=000000' width='40'/>
+            <img src='https://img.icons8.com/?size=100&id=SzgQDfObXUbA&format=png&color=000000' width='40'/>
         </a>
         <a href='https://wa.me/5571991216019' target='_blank'>
             <img src='https://img.icons8.com/color/48/000000/whatsapp.png' width='40'/>
