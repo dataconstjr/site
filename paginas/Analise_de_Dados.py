@@ -219,11 +219,9 @@ st.title("📊 Análise de Dados")
 st.markdown("---")
 
 st.markdown("""
-Esta página permite carregar arquivos de dados nos formatos CSV, XLSX ou XLS, desde que estejam organizados em formato tabular, ou seja, com colunas definidas para cada variável.
+Esta página permite carregar arquivos de dados nos formatos CSV, XLSX ou XLS, desde que estejam organizados em formato tabular, ou seja, com colunas definidas para cada variável. Com os dados carregados corretamente, você poderá explorá-los de forma interativa: gerar visualizações com sua cor preferida e acessar uma análise descritiva com estatísticas resumidas das variáveis.
 
-Com os dados carregados corretamente, você poderá explorá-los de forma interativa: gerar visualizações com sua cor preferida e acessar uma análise descritiva com estatísticas resumidas das variáveis.
-
-Quer levar sua análise para o próximo nível? Conte com nosso suporte especializado em estatística e ciência de dados para dar significado aos seus dados.
+Se quiser levar sua análise para o próximo nível, conte com nosso suporte especializado em estatística e ciência de dados. Estamos aqui para dar significado aos seus dados e transformar informações brutas em decisões inteligentes.
 """)
 
 st.markdown("---")
