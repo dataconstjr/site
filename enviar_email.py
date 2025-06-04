@@ -4,6 +4,7 @@ import os
 
 __all__ = ['enviar_emails']
 
+# Função para enviar os e-mails que recebe os campos usuais de um e-mail + a senha de app do gmail
 def enviar_emails(senha, remetente, destinatarios, assunto, corpo_base, anexos):
     for destinatario in destinatarios:
         nome_destinatario = destinatario["nome"]
@@ -35,5 +36,4 @@ def enviar_emails(senha, remetente, destinatarios, assunto, corpo_base, anexos):
             #print(f"📨 E-mail enviado para {nome_destinatario} <{email_destinatario}>")
 
 if __name__ == "__main__":
-    # Test code here if needed
     pass
