@@ -12,10 +12,10 @@ st.set_page_config(
 # Definindo as páginas
 pages = {
     "": [
-        st.Page("pages/Home.py", title="Página Inicial", icon="🏠", default=True)
+        st.Page("paginas/Home.py", title="Página Inicial", icon="🏠", default=True)
     ],
     "Análise": [
-        st.Page("pages/Analise_de_Dados.py", title="Análise de Dados", icon="📊")
+        st.Page("paginas/Analise_de_Dados.py", title="Análise de Dados", icon="📊")
     ],
     #"Contato": [
     #    st.Page("pages/Fale_Conosco.py", title="Fale Conosco", icon="📬")
