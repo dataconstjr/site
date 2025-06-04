@@ -407,14 +407,11 @@ st.markdown("<p style='text-align: center;'>Desenvolvido por Dataconst Jr - Empr
 # Ícones de redes sociais no rodapé
 st.markdown("""
     <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-        <a href='mailto:dataconstjr@gmail.com' target='_blank'>
-            <img src='https://img.icons8.com/color/48/000000/email.png' width='40'/>
-        </a>
         <a href='https://www.instagram.com/dataconstjr' target='_blank'>
             <img src='https://img.icons8.com/color/48/000000/instagram-new.png' width='40'/>
         </a>
         <a href='https://github.com/dataconstjr' target='_blank'>
-            <img src='https://img.icons8.com/ios-filled/50/000000/github.png' width='40'/>
+            <img src='https://img.icons8.com/?size=100&id=SzgQDfObXUbA&format=png&color=000000' width='40'/>
         </a>
         <a href='https://wa.me/5571991216019' target='_blank'>
             <img src='https://img.icons8.com/color/48/000000/whatsapp.png' width='40'/>
