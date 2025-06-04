@@ -386,9 +386,6 @@ st.markdown("<p style='text-align: center;'>Desenvolvido por Dataconst Jr - Empr
 # Ícones de redes sociais no rodapé
 st.markdown("""
     <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-        <a href='mailto:dataconstjr@gmail.com' target='_blank'>
-            <img src='https://img.icons8.com/color/48/000000/email.png' width='40'/>
-        </a>
         <a href='https://www.instagram.com/dataconstjr' target='_blank'>
             <img src='https://img.icons8.com/color/48/000000/instagram-new.png' width='40'/>
         </a>
